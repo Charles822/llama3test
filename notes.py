@@ -8,7 +8,7 @@ os.environ["OPENAI_MODEL_NAME"] ='llama3-70b-8192'  # Adjust based on available 
 os.environ["OPENAI_API_KEY"] ='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'
 
 file_path = './transcript.txt'
-with open(file_path, 'r') as file:
+with open(file_path, 'r', encoding='utf-8') as file:
     file_content = file.read()
 
 transcript = file_content
