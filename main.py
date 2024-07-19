@@ -4,7 +4,7 @@ from langchain_community.llms import Ollama
 from crewai import Agent, Task, Crew, Process
 
 
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "My_API_KEY"
 
 model = Ollama(model = 'Llama3')
 
